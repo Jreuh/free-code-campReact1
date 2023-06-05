@@ -1,0 +1,53 @@
+.App {
+  text-align: center;
+  background-color: #1a1b21;
+  height: 100vh;
+  font-family: Inter, sans-serif;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+.portrait {
+  width: clamp(247px, 100%, 400px);
+}
+.infoContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+.infoContainer > p {
+  flex-basis: 100%;
+  color: #f3bf99;
+}
+.infoContainer > h1 {
+  margin: 21px auto 0;
+  color: White;
+  letter-spacing: -0.05em;
+}
+.infoContainer .btn-touch {
+  min-width: 247px;
+  margin: 0 auto;
+  padding: 10px 0;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.infoContainer .btn-touch::before {
+  content: url(./img/mail.svg);
+}
+.about,
+.interest {
+  color: #fff;
+  text-align: start;
+  padding: 35px;
+}
+.footer {
+  display: flex;
+  justify-content: space-around;
+}
+.footer a img {
+  width: 75px;
+}
