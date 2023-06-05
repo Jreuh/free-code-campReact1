@@ -40,3 +40,26 @@
 .read-the-docs {
   color: #888;
 }
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  box-shadow: 0 0 4em darkblue;
+}
+.nav-items {
+  list-style: none;
+  display: flex;
+}
+.nav-items > li {
+  padding: 10px;
+}
+.react-Logo {
+  width: 60px;
+}
+.footer {
+  color: white;
+  background-color: #888;
+  display: flex;
+  justify-content: center;
+}
